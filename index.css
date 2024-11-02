@@ -1,0 +1,133 @@
+.commentinput{
+    border: none;
+    background-color: #2f2f2f;
+    border-radius: 25px;
+    height: 50px;
+    width: 400px;
+    padding-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    outline: none;
+    color: #D3D3D3;
+}
+.divpost{
+    margin: 10px;
+    background-color: #4a4a4a;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    height: 800px;
+}
+.postimage{
+    width: 800px;
+    height: 450px;
+    border-radius: 8px;
+}
+.center{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.description{
+    color: #D3D3D3;
+}
+.text{
+    color: #D3D3D3;
+    display: flex;
+}
+.nickname{
+    font-weight: bold;
+}
+.commenttext{
+    overflow-y: scroll;
+    height: 200px;
+    width: 700px;
+    margin-bottom: 30px; 
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.submit {
+    border: none;
+    border-radius: 25px;
+    background-color: #d3d3d3;
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #E8E8E8;
+}
+.author{
+    color: #D3D3D3;
+    font-weight: bold;
+}
+#account{
+    color: #D3D3D3;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+#logout{
+    border: none;
+    border-radius: 25px;
+    background-color: #d3d3d3;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: .9rem;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+#logout:hover{
+    background-color: #E8E8E8;
+}
+#create{
+    border: none;
+    border-radius: 25px;
+    background-color: #d3d3d3;
+    height: 50px;
+    width: 200px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: .9rem;
+    cursor: pointer;
+}
+#create:hover{
+    background-color: #E8E8E8;
+}
+.remove{
+    background-color: darkred;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+.remove:hover{
+    background-color: red;
+}
+
+
+.commentremove{
+    background-color: darkred;
+    border-radius: 25px;
+    width: 40px;
+    height: 23px;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+}
+.commentremove:hover{
+    background-color: red;
+}
